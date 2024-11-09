@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanterWorkout.AppHost", "BanterWorkout.AppHost\BanterWorkout.AppHost.csproj", "{EC6C7358-11C4-4431-A91D-27BE506737E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanterWorkout.ServiceDefaults", "BanterWorkout.ServiceDefaults\BanterWorkout.ServiceDefaults.csproj", "{AF677788-025E-4F47-9CBA-B99DB54D5688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanterWorkout.ApiService", "BanterWorkout.ApiService\BanterWorkout.ApiService.csproj", "{6781D056-5F09-4609-A2E5-33D02A93CD2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanterWorkout.Web", "BanterWorkout.Web\BanterWorkout.Web.csproj", "{E7888B9F-8FEF-4B31-86FA-9F688A0BE283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanterWorkout.Tests", "BanterWorkout.Tests\BanterWorkout.Tests.csproj", "{174D3CF1-1EA5-4F32-9B3A-2E7F3C5A8C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6C7358-11C4-4431-A91D-27BE506737E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6C7358-11C4-4431-A91D-27BE506737E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6C7358-11C4-4431-A91D-27BE506737E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6C7358-11C4-4431-A91D-27BE506737E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF677788-025E-4F47-9CBA-B99DB54D5688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF677788-025E-4F47-9CBA-B99DB54D5688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF677788-025E-4F47-9CBA-B99DB54D5688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF677788-025E-4F47-9CBA-B99DB54D5688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6781D056-5F09-4609-A2E5-33D02A93CD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6781D056-5F09-4609-A2E5-33D02A93CD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6781D056-5F09-4609-A2E5-33D02A93CD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6781D056-5F09-4609-A2E5-33D02A93CD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7888B9F-8FEF-4B31-86FA-9F688A0BE283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7888B9F-8FEF-4B31-86FA-9F688A0BE283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7888B9F-8FEF-4B31-86FA-9F688A0BE283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7888B9F-8FEF-4B31-86FA-9F688A0BE283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174D3CF1-1EA5-4F32-9B3A-2E7F3C5A8C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174D3CF1-1EA5-4F32-9B3A-2E7F3C5A8C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174D3CF1-1EA5-4F32-9B3A-2E7F3C5A8C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174D3CF1-1EA5-4F32-9B3A-2E7F3C5A8C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF02B799-1B9E-4452-8F28-FD316367B338}
+	EndGlobalSection
+EndGlobal
